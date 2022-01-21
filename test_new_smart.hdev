@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<hdevelop file_version="1.2" halcon_version="20.11.0.0">
+<hdevelop file_version="1.2" halcon_version="20.11.2.0">
 <procedure name="main">
 <interface/>
 <body>
@@ -18,7 +18,7 @@
 <l>dev_display (ImageFiltered)</l>
 <l>status:='OK'</l>
 <l>stop ()</l>
-<c></c>
+<l>AAA:=0</l>
 <c>*check height</c>
 <l>if (status='OK')</l>
 <l>    threshold (ImageFiltered, Region5, 0, 0)</l>
